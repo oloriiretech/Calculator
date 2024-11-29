@@ -1,0 +1,39 @@
+:root {
+    --color-black:#000000;
+    --color-white:#ffffff;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+body {
+    text-align: center;
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    border: solid 5px;
+    width: 600px;
+    padding: 20px;
+}
+hr {
+    color: var(--color-black);
+}
+input {
+    border: solid 2px var(--color-black);
+    margin: 25px auto;
+    padding: 15px;
+    width: 400px;
+}
+button {
+    border: solid 2px var(--color-black);
+    margin: 15px;
+    border-radius: 50px;
+    padding: 30px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+button:hover {
+background-color: blue;
+}
